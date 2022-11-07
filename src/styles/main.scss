@@ -1,0 +1,19 @@
+$body-font-family: 'Noto Sans JP', sans-serif;
+
+@use 'vuetify' with (
+  $color-pack: false,
+  $border-radius-root: 0.25rem,
+  $body-font-family: $body-font-family,
+  $line-height-root: 1.2,
+  // $button-height: 40px,
+  // $rounded: (
+  //   0: 5px,
+  //   'sm': 1rem / 2,
+  //   null: 1rem,
+  //   'md': 1rem,
+  //   'lg': 1rem * 2,
+  //   'xl': 1rem * 6,
+  //   'pill': 9999px,
+  //   'circle': 50%
+  // )
+);

@@ -21,13 +21,9 @@
           false-value="0"
           label="Toggle order"
         ></v-switch>
-        <v-btn size="medium" @click="print('my-app-bar')">
-          print my app bar
-        </v-btn>
+        <v-btn @click="print('my-app-bar')"> print my app bar </v-btn>
 
-        <v-btn size="medium" @click="print('my-drawer')">
-          print my drawer
-        </v-btn>
+        <v-btn @click="print('my-drawer')"> print my drawer </v-btn>
       </v-card>
       <slot />
     </v-main>
@@ -35,7 +31,7 @@
 </template>
 
 <script lang="ts" setup>
-import type { VLayout } from "vuetify/components";
+import type { VLayout } from "vuetify/components/VLayout";
 
 const order = ref(0);
 
